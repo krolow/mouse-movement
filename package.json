@@ -1,0 +1,33 @@
+{
+  "name": "mouse-movement",
+  "version": "0.0.1",
+  "description": "Track mouse movements",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node test/all.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krolow/mouse-movement.git"
+  },
+  "keywords": [
+    "mouse",
+    "tracker",
+    "track",
+    "movement"
+  ],
+  "author": "Vinícius Krolow",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/krolow/mouse-movement/issues"
+  },
+  "homepage": "https://github.com/krolow/mouse-movement",
+  "dependencies": {
+    "babel": "^5.4.7"
+  }
+}
